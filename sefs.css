@@ -1,0 +1,16 @@
+div.eng-sefs{
+    display: grid;
+    gap: 0;
+    grid-template-columns: 1fr 1fr;
+    
+    & img {
+        width: 100%;
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 960px) {
+    div.eng-sefs {
+        grid-template-columns: 1fr;
+    }
+}
