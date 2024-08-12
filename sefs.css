@@ -1,4 +1,4 @@
-div.eng-sefs{
+div.eng-sefs a {
     display: grid;
     gap: 0;
     grid-template-columns: 1fr 1fr;
@@ -10,7 +10,7 @@ div.eng-sefs{
 }
 
 @media (max-width: 960px) {
-    div.eng-sefs {
+    div.eng-sefs a {
         grid-template-columns: 1fr;
     }
 }
